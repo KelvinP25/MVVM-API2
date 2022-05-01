@@ -1,11 +1,11 @@
-package com.example.mvvm.View
+package com.example.mvvm.UI.View
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.lifecycle.Observer
 import com.example.mvvm.databinding.ActivityMainBinding
-import com.example.mvvm.viewmodel.QuotteViewModel
+import com.example.mvvm.UI.viewmodel.QuotteViewModel
 
 
 class MainActivity : AppCompatActivity() {
