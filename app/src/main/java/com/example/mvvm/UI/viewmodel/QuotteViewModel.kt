@@ -38,6 +38,7 @@ class QuotteViewModel @Inject constructor(
                 quoteModel.postValue(quote)
             }
             isLoading.postValue(false)
+
         }
     }
 }
